@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Modul 2"
+        android:id="@+id/modul2_menu"
+        />
+
+    <item
+        android:title="Modul 3"
+        android:id="@+id/modul3_menu"
+        />
+
+    <item
+        android:title="Modul 4"
+        android:id="@+id/modul4_menu"
+        />
+
+    <item
+        android:title="Modul 5"
+        android:id="@+id/modul5_menu"
+         
+        />
+
+    <item
+        android:title="Modul 6"
+        android:id="@+id/modul6_menu"
+        />
+
+    <item
+        android:title="Modul 7"
+        android:id="@+id/modul7_menu"
+        />
+</menu>

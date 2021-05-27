@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReleaseTutorial"
+    android:orientation="vertical"
+    android:background="@drawable/animation_list">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/shadow"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="# Langkah 1" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/release_1"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Langkah Pertama yang dilakukan Adalah memilih menu build pada tab menu ribbon pada bagian atas aplikasi android studio" />
+
+
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/release_2" />
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="# Langkah 2" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pilih Menu Generate Signed Bundle / Apk, untuk memulai build apk dengan tambahan autorisasi dikarenakan hasil build dari apk yang berlabel release mempunyai arti bahwa aplikasi tersebut sudah siap diluncurkan dan bisa dipertanggung jawabkan pada pihak pemilik aplikasi" />
+
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="# Langkah 3" />
+
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/release_3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Proses Selanjutnya adalah memberikan file jks, sebagai signature dari autentikasi dari aplikasi yang akan dibuild pada versi release, file jks bersihat wajib harus disertakan. dimana android studio sudah memberikan wizard yang mana bisa kita manfaatkan untuk membuat file jks. Berikut isi form untuk membuat signature jks" />
+
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@mipmap/release_4" />
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="# Langkah 4" />
+
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/release_5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setelah memberikan file jks dan mengisikan beberapa form tambahan sebagai maksud untuk memberikan identitas dan legalitas dari aplikasi yang akan di release pada masyarakat, diakhiri dengan menekan tombol finsih yang mana saat setelah loading akan muncul notifikasi dimana build telah selesai dan disertai link menuju folder apk tersebut. Namun Sebelumnya User akan ditampilkan pilihan versi yang mana akan dibuild Debug / release. seperti gambar dibawah ini" />
+
+
+            <ImageView
+                android:layout_marginTop="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@mipmap/release_6" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animation_list"
+    android:orientation="vertical"
+    tools:context=".ListModulActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/animation_list"
+            android:orientation="vertical"
+            tools:context=".ListModulActivity">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow"
+                android:padding="6dp"
+                android:id="@+id/modul2">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="25dp"
+                    android:src="@mipmap/images"
+                    android:id="@+id/modul2logo"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modul 2 (Layout)"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/modul2logo"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow"
+                android:padding="6dp"
+                android:id="@+id/modul3">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="25dp"
+                    android:src="@mipmap/images"
+                    android:id="@+id/modul3logo"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modul 3 (Intent)"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/modul3logo"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow"
+                android:padding="6dp"
+                android:id="@+id/modul4">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="25dp"
+                    android:src="@mipmap/images"
+                    android:id="@+id/modul4logo"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modul 4 (Menu)"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/modul4logo"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow"
+                android:padding="6dp"
+                android:id="@+id/modul5">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="25dp"
+                    android:src="@mipmap/images"
+                    android:id="@+id/modul5logo"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modul 5 (SQLite)"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/modul5logo"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow"
+                android:padding="6dp"
+                android:id="@+id/modul6">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="25dp"
+                    android:src="@mipmap/images"
+                    android:id="@+id/modul6logo"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modul 6 (Shared Prefenence)"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/modul6logo"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow"
+                android:padding="6dp"
+                android:id="@+id/modul7">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="25dp"
+                    android:src="@mipmap/images"
+                    android:id="@+id/modul7logo"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Modul 7 (Build)"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/modul7logo"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
